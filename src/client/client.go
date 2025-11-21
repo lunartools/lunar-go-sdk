@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"lunar-go-sdk/src/types"
+	"github.com/lunartools/lunar-go-sdk/src/types"
 )
 
 type Client struct {

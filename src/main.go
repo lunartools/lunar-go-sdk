@@ -1,6 +1,6 @@
 package lunartools
 
-import "lunar-go-sdk/src/client"
+import "github.com/lunartools/lunar-go-sdk/src/client"
 
 type Client = client.Client
 
