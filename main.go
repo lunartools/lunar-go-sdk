@@ -1,8 +1,22 @@
-package lunar_go_sdk
+package lunartools
 
-import "github.com/lunartools/lunar-go-sdk/src/client"
+import (
+	"github.com/lunartools/lunar-go-sdk/src/client"
+	"github.com/lunartools/lunar-go-sdk/src/types"
+)
 
 type Client = client.Client
+type Config = types.Config
+type Webhook = types.Webhook
+type Embed = types.Embed
+type Field = types.Field
+type Footer = types.Footer
+type Author = types.Author
+type Thumbnail = types.Thumbnail
+type Image = types.Image
+type WebhookResponse = types.WebhookResponse
+type AddProduct = types.AddProduct
+type AddOrder = types.AddOrder
 
 var NewClient = client.NewClient
 
