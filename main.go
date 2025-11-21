@@ -1,4 +1,4 @@
-package lunartools
+package lunar_go_sdk
 
 import "github.com/lunartools/lunar-go-sdk/src/client"
 
